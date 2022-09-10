@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-top: 10px;
 }
 
 .nav p {
@@ -38,8 +39,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .restaurant-name {
     color: white;
+    font-family: 'Parisienne', cursive;
+    font-size: 5rem;
+}
+
+.title {
+    font-family: 'Parisienne', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 40px;
+    color: #edd369;
+}
+
+.story {
+    margin: 40px 400px 0 400px;
+    text-align: center;
 }
