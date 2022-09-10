@@ -1,2 +1,3 @@
-import pageLoad from "./pageLoad";
-pageLoad()
+import home from "./home";
+
+home()
