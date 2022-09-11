@@ -1,8 +1,11 @@
 import banner from "./banner.jpg"
 
 function home() {
+    const nav = document.querySelector(".nav")
     const content = document.querySelector("#content")
     
+    nav.classList.remove("dark-nav")
+
     const img = document.createElement("img")
     img.src = banner
     img.classList.add("banner")
