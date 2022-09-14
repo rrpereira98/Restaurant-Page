@@ -4,9 +4,6 @@ function menu() {
 
     nav.classList.add("dark-nav")
 
-    const usableSpace = document.createElement("div")
-    usableSpace.classList.add("usable-space")
-
     const menuTitle = document.createElement("h1")
     menuTitle.classList.add("menu-title")
     menuTitle.textContent = "The Menu"
@@ -44,9 +41,15 @@ function menu() {
     menuList.appendChild(item9)
     menuList.appendChild(item10)
 
-    content.appendChild(usableSpace)
-    usableSpace.appendChild(menuTitle)
-    usableSpace.appendChild(menuList)
+    const footer = document.createElement("div")
+    footer.classList.add("footer")
+    const footerNote = document.createElement("p")
+    footerNote.textContent = "Created by Rodrigo Pereira"
+    footer.appendChild(footerNote)
+
+    content.appendChild(menuTitle)
+    content.appendChild(menuList)
+    content.appendChild(footer)
 }
 
 export default menu

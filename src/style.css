@@ -28,6 +28,14 @@ body {
     color: white;
 }
 
+#content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .banner {
     width: 100%;
     height: 500px;
@@ -56,19 +64,17 @@ body {
     font-family: 'Parisienne', cursive;
     font-size: 2.5rem;
     text-align: center;
-    margin-top: 40px;
     color: #edd369;
+    margin-top: 30px;
 }
 
 .story {
-    margin: 40px 400px 0 400px;
+    margin: 0 20%;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: #0f121e;
     text-align: center;
@@ -82,7 +88,7 @@ body {
 /* menu page */
 
 .usable-space {
-    max-height: 80vh;
+    
     display: grid;
     grid-template: 1fr 10fr/ 1fr;
     grid-area: 
@@ -92,7 +98,7 @@ body {
 }
 
 .menu-title {
-    margin-top: 100px;
+    margin-top: 200px;
     color: white;
     font-family: 'Parisienne', cursive;
     font-size: 4rem;
@@ -101,8 +107,8 @@ body {
 
 .menu-list {
     background-color: #0f121e;
-    margin: auto 200px;
     padding: 50px 200px 40px 200px;
+    margin-bottom: 30px;
 }
 
 .menu-list p {
