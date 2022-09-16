@@ -98,7 +98,7 @@ body {
 }
 
 .menu-title {
-    margin-top: 200px;
+    margin-top: 100px;
     color: white;
     font-family: 'Parisienne', cursive;
     font-size: 4rem;
@@ -113,4 +113,50 @@ body {
 
 .menu-list p {
     margin-bottom: 10px;
+}
+
+/* contact page */
+
+.contact-title {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+    color: #edd369;
+}
+
+.contact-space {
+    margin: 0 5%;
+    margin-bottom: 30px;
+    padding: 50px 200px;
+    background-color: #0f121e;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-template-areas: 
+        "telephone map"
+        "mobile map"
+        "email map";
+    gap: 5px;
+    align-items: center;
+}
+
+.telephone {
+    grid-area: telephone;
+    align-self: flex-end;
+    font-size: 1.5rem;
+}
+
+.mobile {
+    grid-area: mobile;
+    font-size: 1.5rem;
+}
+
+.email {
+    grid-area: email;
+    align-self: baseline;
+    font-size: 1.5rem;
+}
+
+.map {
+    grid-area: map;
 }
